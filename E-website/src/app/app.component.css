@@ -1,0 +1,7 @@
+app-container{
+    display: flex;
+    justify-content: center;
+   /* background-color: rgba(180, 178, 178, 0.699); */
+   background-color: rgba(231, 230, 230, 0.849);
+
+}

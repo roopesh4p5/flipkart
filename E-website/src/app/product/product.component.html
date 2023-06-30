@@ -1,0 +1,15 @@
+<div class="section">
+    <p class="headline">BEST OF ELECTRONICS</p>
+<div class="crds">
+    <div   *ngFor="let product of products">
+        
+        <div class="crd">
+            <img class="image" width="210px" height="220px" src="{{product.image}}" alt="">
+            <p class="name">{{product.name}}</p>
+            <p class="name">{{product.price|currency:"INR"}}</p>
+        </div>
+        
+    </div>
+</div>
+
+</div>

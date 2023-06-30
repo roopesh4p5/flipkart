@@ -1,0 +1,12 @@
+<div class="pd">
+  <div class="items">
+    <div *ngFor="let item of navitem">
+      <div class="hero">
+        <img width="60px" height="60px" src="{{ item.image }}" alt="" />
+        <p class="name">
+          {{ item.name }}<span *ngIf="item.more == 'yes'"><i class="bi bi-caret-down-fill"></i></span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
